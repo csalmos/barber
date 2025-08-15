@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Rulz Barber Shop</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/web-app-manifest-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon.jpg">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            background: #181617;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .widget {
+            margin-top: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo-link">
+                <img src="assets/hatterkep-hatter-nelkul.png" alt="EnergiX Logo" class="logo-image">
+            </a>
+            <button class="hamburger" aria-label="Menü">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div class="nav-overlay"></div>
+            <ul class="nav-links">
+                <li><a href="#philosophy">Rólunk</a></li>
+                <li><a href="#products" class="nav-link">Borbélyok</a></li>
+                <li><a href="#footer">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="margin:0; min-height:100vh; background: url('assets/hatterkep-hatter-nelkul.png') no-repeat center 10%;" class="container">
+        <div class="hero">
+            <h1>No Rulz Barber Shop</h1>
+            <p>Online időpontfoglalás</p>
+            <div class="widget">
+                <!-- IDE jön a Setmore foglalási widget kódja -->
+                <script id="setmore_script" type="text/javascript" src="https://assets.setmore.com/integration/static/setmoreIframeLive.js"></script><a style="float: none" id="Setmore_button_iframe" href="https://norulz.setmore.com"><img border="none" src="https://assets.setmore.com/integration/images/newdesign/others/book-now-button.svg" alt="Book an appointment with No Rulz using Setmore" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

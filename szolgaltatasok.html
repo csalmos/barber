@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Rulz Szolgáltatások</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/web-app-manifest-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon.jpg">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            background: #181617;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .widget {
+            margin-top: 2rem;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="/" class="logo-link">
+                    <img src="assets/hatterkep-hatter-nelkul.png" alt="NoRulz Logo" class="logo-image">
+                </a>
+                <button class="hamburger" aria-label="Menü">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="nav-overlay"></div>
+                <ul class="nav-links">
+                    <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+                    <li><a href="borbelyok.html" class="nav-link">Borbélyok</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <h1 style="margin-top:200px;">Szolgáltatásaink</h1>
+            <p>
+                A No Rulz Barber Shopban professzionális borbélyaink széles körű szolgáltatásokat nyújtanak,
+                hogy minden vendégünk maximálisan elégedett legyen. Ismerd meg kínálatunkat és válaszd ki a hozzád illőt!
+            </p>
+            <ul class="services-list">
+                <li>
+                    <h2>Férfi hajvágás</h2>
+                    <p>Modern vagy klasszikus, trendi vagy elegáns – borbélyaink minden elképzelésed megvalósítják, precízen és stílusosan.</p>
+                </li>
+                <li>
+                    <h2>Szakáll igazítás & formázás</h2>
+                    <p>Professzionális szakállápolás, borotválás, kontúrozás, ápolás minőségi termékekkel.</p>
+                </li>
+                <li>
+                    <h2>Gyermek hajvágás</h2>
+                    <p>Barátságos környezetben, türelemmel és odafigyeléssel vágjuk a legkisebbek haját is.</p>
+                </li>
+                <li>
+                    <h2>Fejbőrmasszázs & hajmosás</h2>
+                    <p>Hajvágás mellé is kérhető kényeztető fejbőrmasszázs és hajmosás prémium termékekkel.</p>
+                </li>
+                <li>
+                    <h2>Prémium férfi arckezelés</h2>
+                    <p>Tisztító, hidratáló, relaxáló arcápolás férfiaknak, bármilyen bőrtípusra.</p>
+                </li>
+                <li>
+                    <h2>Esküvői és alkalmi styling</h2>
+                    <p>Különleges eseményekre exkluzív frizura- és szakállformázás, hogy a legjobb formád mutasd.</p>
+                </li>
+            </ul>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

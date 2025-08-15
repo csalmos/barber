@@ -572,3 +572,26 @@ body.menu-open {
 .hero {
     margin-top: 200px;
 }
+
+.services-list {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.services-list li {
+    background: #181818;
+    color: #fafafa;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.services-list h2 {
+    margin-bottom: 0.3rem;
+}
+  
+.profile-card {
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Rulz Barber Shop</title>
+    <style>
+        body {
+            margin: 0;
+            background: #181617;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .widget {
+            margin-top: 2rem;
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body style="margin:0; min-height:100vh; background: #181617 url('hatterkep.jpg') no-repeat center center/cover;">
+    <div class="container">
+        <h1>No Rulz Barber Shop</h1>
+        <p>Online időpontfoglalás</p>
+        <div class="widget">
+            <!-- IDE jön a Setmore foglalási widget kódja -->
+            <script id="setmore_script" type="text/javascript" src="https://assets.setmore.com/integration/static/setmoreIframeLive.js"></script><a style="float: none" id="Setmore_button_iframe" href="https://tesztbarber.setmore.com"><img border="none" src="https://assets.setmore.com/integration/images/newdesign/others/book-now-button.svg" alt="Book an appointment with Teszt Barber using Setmore" /></a>
+        </div>
+    </div>
+</body>
+</html>
